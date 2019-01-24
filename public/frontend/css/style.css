@@ -1,0 +1,268 @@
+/*=============================================
+		generic font
+
+		font-family: 'Rubik', sans-serif;
+		font-family: 'Roboto Mono', monospace;
+
+
+		color used
+
+		     Mint leaf : #00b894;
+		     egg blue : #00cec9;   heading-top
+		     electron blue : #0984e3;
+		     purple : #6c5ce7;
+		     grey : #b2bec3;
+==============================================*/
+
+html,
+body{
+	height: 100%;
+	font-family: 'Roboto Mono', monospace;
+}
+
+/*============================================
+			home
+============================================*/
+
+#home{
+	height: 100%;
+	margin-top: 0px;
+}
+
+#home-cover{
+	height: 100%;
+	background-image: url(../img/bg-home.jpg);	
+}
+
+#home-content-box{
+	height: 100%;
+	width: 100%;
+	display: table;
+	background-color: rgba(0,0,0,0.5);
+}
+
+#home-content-box-inner{
+	display: table-cell;
+	vertical-align: middle;	
+}
+
+#home-heading h3{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 600px;
+	margin: 20px 0 20px 0;
+}
+
+#home-heading h4{
+	color: #fff;
+	font-size: 20px;
+	font-weight: 400px;
+}
+
+#home-btn{
+	padding-top: 20px;
+}
+
+/*================================================
+				Parallax generic
+================================================*/
+
+.bg-parallax{
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+/*================================================
+				Button generic
+================================================*/
+
+.btn-general{	
+	border-width: 2px;
+	border-radius: 0;
+	text-transform: uppercase;
+	padding: 12px 26px 12px 26px;
+	font-size: 16px;
+	font-weight: 400px;
+}
+
+.btn-service{
+	border-width: 2px;
+	font-size: 16px;
+	font-weight: 400px;
+}
+
+.btn-white{
+	border-color: #fff;
+	color: #fff ; 
+}
+
+.btn-blue{
+	background-color: #0984e3;
+	color: #fff;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+	background-color: #00b894;
+	color: #fff;
+}
+
+.btn-white:hover,
+.btn-white:focus {
+	background-color: #00b894;
+	color: #fff;
+}
+
+/*================================================
+				content generic
+================================================*/
+
+.content-box{
+	padding: 40px 0 40px 0;
+}
+
+.content-title h3{
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.content-title-underline{
+	width: 30px;
+	height: 3px;
+	background-color: #34c6d3;
+	margin: 0 auto 30px auto;
+}
+
+/*================================================
+				services
+================================================*/
+.icon{
+	text-align: center;
+}
+
+.icon i{
+	font-size: 30px;
+    padding: 20px 20px;
+    background-color: #00cec9;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.icon-text{
+	text-align: center;
+}
+
+.service-content{
+	padding: 15px;
+}
+
+/*================================================
+				products
+================================================*/
+.card-content{
+	border: 2px solid #b2bec3;
+    padding: 20px;
+    text-align: center;
+    margin: 14px 0px;
+}
+
+.card-img-top{
+	height: 100px;
+}
+
+.card-content:hover,
+.card-content:focus{
+	-ms-transform: scale(1.1); /* IE 9 */
+  	-webkit-transform: scale(1.1); /* Safari 3-8 */
+  	transform: scale(1.1);
+	
+}
+
+
+/*================================================
+				contacts
+================================================*/
+
+.contact-text{
+	text-align: center;
+	color: #fff;
+}
+
+.form-group{
+	text-align: center;
+}
+
+.form-style{
+	background-color: #b2bec3;
+	padding: 20px; 
+}
+
+.contact-img{
+	background-image: url(../img/bg-home.jpg);
+}
+
+/*================================================
+				footer
+================================================*/
+
+
+.flex-center{
+	text-align: center;
+	background-color: #8d7bdf;
+	padding: 50px 0px;
+	
+}
+
+.flex-center a{
+	color: #fff;
+    padding: 0px 30px;
+}
+
+.flex-center a:hover{
+	color: #0984e3; 
+}
+
+.footer-grid{
+	
+	padding: 0px 0px;
+}
+
+.footer-bottom{
+	padding: 15px ;
+	background-color: #6c5ce7;
+	color: #fff;
+}
+
+
+.navbar-transparent{
+	margin-bottom: 0px;
+	background-color: transparent;
+	margin: 0px 0px;
+	border-radius: 0; 
+}
+
+.navbar-modified{
+	margin-bottom: 0px;
+	background-color: #8d7bdf;
+	margin: 0px 0px;
+	border-radius: 0; 
+	padding: 5px 0px;
+}
+
+.text-right{
+	float: right;
+	margin: 5px 30px;
+}
+
+#nav-list ul>li>a{
+	color: #fff;
+	font-size: 17px;
+}
+
+#nav-list ul>li>a:hover{
+	color: #0984e3;
+}
